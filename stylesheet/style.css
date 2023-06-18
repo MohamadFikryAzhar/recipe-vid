@@ -1,0 +1,134 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navbar ul li{
+    padding-right: 40px;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #2e266f;
+}
+
+.navbar ul li:hover{
+    border-bottom: 2px solid #2e266f;
+    cursor: pointer;
+}
+
+#videos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#videos .video{
+    max-width: 1100px;
+    display: flex;
+    gap: 20px;
+}
+
+.main img{
+    width: 720px;
+    height: 470px;
+    margin-top: 70px;
+    object-fit: cover;
+    position: relative;
+}
+
+.main h2{
+    width: 500px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.main p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 300;
+    color: #AAAAAA;
+}
+
+.relate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 40px;
+    gap: 10px;
+}
+
+.relate .title{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.relate .vid{
+    position: relative;
+}
+
+.relate .vid h2{
+    width: 420px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.relate .vid img{
+    width: 280px;
+    height: 140px;
+    object-fit: contain;
+    position: relative;
+    border-radius: 6px;
+}
+
+.relate .vid p{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 300;
+    color: #AAAAAA;
+}
+
+.relate .vid .vid-txt{
+    width: 70%;
+    font-family: 'Montserrat';
+    font-size: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #F8F8F8;
+}
+
+.side{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 2%;
+    height: 100vh;
+    background-color: gold;
+    z-index: -1;
+}
